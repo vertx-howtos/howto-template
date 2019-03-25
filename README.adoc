@@ -159,7 +159,7 @@ This also means that we are in a model where the `master` branch is the latest s
 
 It is strongly advised to set-up a cron job in Travis-CI to regularly build a how-to.
 
-Building on a weekly basis is a good option.
+Building on a daily basis is a good option to ensure theme updates are quickly reflected.
 
 == Misc
 
