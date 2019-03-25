@@ -140,6 +140,8 @@ GitHub pages then exposes the content of the `gh-pages` branch as the website.
 
 While you could do this manually, we automate the process with Travis-CI that also has a special deployment provider to further simplify the process.
 
+=== Travis-CI configuration
+
 Feel-free to customize the `.travis.yml` configuration to check that your how-to code builds and passes tests, but keep the `deploy` tree close to that one:
 
 [source,yaml]
@@ -152,6 +154,12 @@ It is configured on Travis-CI by a Vert.x project maintainer.
 
 Note that we only publish on the `master` branch, but pull-requests can still be tested.
 This also means that we are in a model where the `master` branch is the latest stable revision.
+
+=== Travis-CI cron job
+
+It is strongly advised to set-up a cron job in Travis-CI to regularly build a how-to.
+
+Building on a weekly basis is a good option.
 
 == Misc
 
