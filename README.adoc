@@ -22,7 +22,7 @@ An author who doesn't have knowledge of either of the tools can always ask for c
 A how-to is not a guide or a mini-book: it must be as concise as possible.
 
 In practice this means that each how-to must focus on a very narrow topic.
-It also means that the text must not deviate from the topic, and that the chose example must be as simple as possible.
+It also means that the text must not deviate from the topic, and that the chosen example must be as simple as possible.
 
 The structure of a how-to must be as follows.
 
